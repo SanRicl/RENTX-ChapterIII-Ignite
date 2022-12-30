@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { container } from 'tsyringe';
-import { AuthenticateUserController } from '../modules/accounts/authenticateUser/AuthenticateUserController';
+import { AuthenticateUserController } from '../modules/accounts/useCases/authenticateUser/AuthenticateUserController';
 
 const authenticateRoutes = Router();
 
